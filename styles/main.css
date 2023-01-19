@@ -131,3 +131,7 @@ img {
   max-width:100%;
   height:auto;
 }
+
+.linkhover:hover {
+  cursor: pointer;
+}

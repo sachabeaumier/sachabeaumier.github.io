@@ -1,0 +1,128 @@
+/*
+
+
+/*lines container paragrapher divs  
+.line {
+  border-top: 3px solid #000;
+  padding: 20px 0px 20px 0px;
+} 
+
+/*g div class
+.g {
+
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  position: relative;
+  min-width: 200px;
+  max-width: 150px;
+  
+
+}
+
+
+
+@media only screen and (max-width: 320px) {
+  body {
+    background-color: rgb(69, 188, 75);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: rgb(36, 156, 175);
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: rgb(210, 166, 22);
+  }
+}
+
+
+nav {
+  font-family: quicksand;
+
+}
+
+li {
+
+  font-family: quicksand;
+
+}
+
+ul{
+
+  font-family: quicksand;
+
+}
+    
+
+p {
+  font-family: quicksand;
+}
+
+h1 {
+  font-family: quicksand;
+}
+
+h2 {
+  font-family: quicksand;
+}
+
+h3 {
+  font-family: quicksand;
+}
+
+
+body {
+  
+  
+
+
+
+  background: rgb(189, 198, 25);
+
+}
+
+*/
+
+
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  margin: 1rem 0;
+  display: inline-block;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}

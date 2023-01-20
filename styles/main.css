@@ -112,6 +112,7 @@ h1, h2, h3 {
   text-decoration: none;
   margin: 1rem 0;
   display: inline-block;
+  transition: all 0.2s ease-in-out;
 }
 
 .grid-3 {
@@ -134,10 +135,19 @@ h1, h2, h3 {
 }
 
 img {
-  max-width:100%;
+  width:100%;
   height:auto;
 }
 
 .linkhover:hover {
   cursor: pointer;
+  background-color: #ffffff;
+    color: #333333;
+    transform: scale(1.1);
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #333333;
+  transform: scale(1.1);
 }

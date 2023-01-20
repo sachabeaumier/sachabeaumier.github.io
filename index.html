@@ -23,13 +23,18 @@
     <h1>Sacha Beaumier Blog Site</h1> 
     <div class="card">
     
-    <p class="introduction"> This is Sacha's developer blog site. It contains projects, blogposts and programming portfolio stuff mostly
+    <p class="introduction"> This is Sacha's developer blog site. It contains projects, blogposts, data sciency things and programming portfolio stuff mostly
       with work conducted at Dev Academy.
     </p>
     </div>
+    <div>
+      <canvas id="box">
+
+      </canvas>
+    </div>
   
    
-  <div class="card">
+  
     <h2 class="blogposts">List of blog posts</h2>
     <div class="grid-3">
     <p><a href="/blog/te-houtaewa-template.html">The Story of Te Houtaewawa</a></p>
@@ -37,15 +42,15 @@
     <p><a href="/blog/identity-values.html">Identity values</a></p>
     <p><a href="/blog/learning-plan.html">Learning Plan</a></p>
   </div>
-  </div>
+  
 
   <div class="card">
     
     <h2 class="contact">Contact</h2>
-    <div class="grid-4">
+    <div class="grid-3">
     <button class="linkhover" onclick="location.href='https://github.com/sachabeaumier'"><img src="/img/Octicons-mark-github.svg.png"></button>
     <button class="linkhover" onclick="location.href='https://www.linkedin.com/in/sacha-beaumier-625733122/'"><img src="/img/LinkedIn_icon_circle.svg.png"></button>
-    <button><img src="/img/Mail_(iOS).svg.png"></button>
+    <button class="linkhover" onclick="location.href='#'"><img src="/img/Mail_(iOS).svg.png"></button>
     <h3>Github</h3>
     <h3>Linkedin</h3>
     <h3>Email: sachbea.developer@gmail.com</h3>
@@ -55,7 +60,39 @@
     
   </div>
     
+ <!---->
+
  
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha512-dLxUelApnYxpLt6K2iomGngnHO83iUvZytA3YjDUCjT0HDOHKXnVYdf3hU4JjM8uEhxf9nD1/ey98U3t2vZ0qQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script id="box">
+ const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+
+const renderer = new THREE.WebGLRenderer();
+renderer.setSize( window.innerWidth, window.innerHeight );
+document.body.appendChild( renderer.domElement );
+
+const geometry = new THREE.Box( 1, 1, 1 );
+const material = new THREE.MeshBasicMaterial( { color: 0x00ff0f, } );
+const cube = new THREE.Mesh( geometry, material );
+scene.add( cube );
+
+camera.position.z = 5;
+
+function animate() {
+				requestAnimationFrame( animate );
+
+				cube.rotation.x += 0.01;
+				cube.rotation.y += 0.015;
+
+				renderer.render( scene, camera );
+			};
+
+			animate(); -->
+
+
+ </script>
+		
   
 </body>
 </html>

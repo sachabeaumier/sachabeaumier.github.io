@@ -174,7 +174,7 @@ img {
   transform: scale(1.1);
 }
 
-.parent {
+.masterparent {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(5, 1fr);

@@ -12,7 +12,7 @@ function draw() {
   } else {
     fill(143, 148, 107) //255
   }
-  ellipse(mouseX, mouseY, 800, 800)
+  ellipse(mouseX, mouseY, 400, 400)
 }
 
 // 234, 21, 146

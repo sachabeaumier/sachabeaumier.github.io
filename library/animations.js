@@ -149,10 +149,10 @@ function init() {
 
 // The process of creating the new generation
 function generate() {
-  // Loop through every spot in our 2D array and check spots neighbors
+  // Loops and checks neighbours
   for (let x = 1; x < columns - 1; x++) {
     for (let y = 1; y < rows - 1; y++) {
-      // Add up all the states in a 3x3 surrounding grid
+      // Adds state within 3x3 perimeter
       let neighbors = 0
       for (let i = -1; i <= 1; i++) {
         for (let j = -1; j <= 1; j++) {

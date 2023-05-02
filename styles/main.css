@@ -236,7 +236,22 @@ canvas {
     padding: 0.5em 1.2em;
     margin: 0.4em 0.2em;
     
-    color: black;
+    /* color: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px; */
+}
+
+.the-boxy2 {
+
+  background-color: #beb6b6;
+    border: 0.1em solid black;
+    border-radius: 1em;
+    padding: 0.5em 1.2em;
+    margin: 0.4em 0.2em;
+    
+    /* display: flex; */
+  justify-content: space-between;
 }
 
 

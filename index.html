@@ -1,129 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sacha Beaumier developer site</title>
-  <!--P5 JS Libraries-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles/maintwo.css">
-  <script src="/library/newanimations.js"></script>
-  <script src="processing-1.4.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js" integrity="sha512-WJXVjqeINVpi5XXJ2jn0BSCfp0y80IKrYh731gLRnkAS9TKc5KNt/OfLtu+fCueqdWniouJ1ubM+VI/hbo7POQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <!-- <div id="canvasContainer">
-  <script src="/library/animations.js"></script> -->
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <script src="/library/d3graphs.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Sono,wght@1,300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacha Beaumier - Software Engineer</title>
+   
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+    <script src="parametric.js"></script>
+
+<link rel="stylesheet" href="styles.css">
 </head>
-
-  <body>
-     <div class="container">
-    <!-- <nav>
-      <ul>
-        <li class="introduction"><a href="#introduction">Introduction</a></li>
-        <li class="blogposts"><a class="blogposts" href="#blogposts">blog posts</a></li>
-        <li class="about"><a href="#">About</a></li>
-        <li class="contact"><a href="#">Contact</a></li>
-      </ul>
-    </nav> -->
-    <header><h1>Sacha Beaumier Developer Page</h1> </header>
-    <div class="container">
-      <div class="the-boxy1">
-      
-    <p class="subhead"> Full Stack Developer,
-
-      
-      
+<body>
+    <header>
+        <!-- Logo and navigation menu -->
+        <!-- Insert your HTML code for the header here -->
+        <nav class="navbar-locked">
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#sacha"></a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills and Tech Stack</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact and CV</a></li>
+          </ul>
+        </nav>
+    </header>
     
-      
-      used to make red wine now make computers whirl. Full Stack Developer building RESTfully designed applications in JS/TS mostly with MERN and SERN stacks (MongoDB, SQL, Express, React and Node.js). In a past life, I was a Data/Reporting Analyst in the public sector and within the Insurance/Financial Services industry.
-    </p>
- 
-  </div> 
-</div>
 
-
-  <div class="container">
-    <div class="the-boxy1">
-      <h2 class="portfolio">Portfolio and Projects</h2>
-      
-      <paragraph>
-        
+    <section id="hero">
+        <!-- Hero section content -->
+        <!-- Insert your HTML code for the hero section here -->
        
+        <div class="heroname">
+       
+          
+       
+       <main>
         
+        <canvas class="animm" id="parametric"></canvas>
+      </main>
+
+      </div>
+
+    </section>
+     <!-- <section id="sacha">
+      <h1>Sacha Beaumier</h1>
+      <p>Software Engineer</p>
+      <div class="circle" style="background-image: url('https://avatars.githubusercontent.com/u/13222425?v=4');"></div>
+
       
+     </section> -->
+
+    <section id="about">
+        <!-- About Me section content -->
+        <!-- Insert your HTML code for the about section here -->
+        <!-- <h1>Sacha Beaumier</h1>
+        <p>Software Engineer</p>
+      <div class="circle" style="background-image: url('https://avatars.githubusercontent.com/u/13222425?v=4');"></div> -->
+        <h2>About</h2>
+        <p>In a former life I made red wine, though now make computers whirl. 
+          I build RESTfully designed full stack applications in JavaScript/TypeScript, mostly in SERN stack (SQL, Express, React and Node.js). 
+          I am especially interested in data heavy engineering roles and projects (incl. Data Analytics, Data Science, Machine Learning, Data Visualization etc).
+          In a past life, I was a Data/Reporting Analyst in the Public and FIRE sectors.</p>
+    </section>
+
+    <section id="skills">
+        <!-- Skills and Services section content -->
+        <!-- Insert your HTML code for the skills section here -->
+        <h2>Skills and Tech Stack</h2>
+        <ul id="skillslist">
+          <li><img src="" alt="React" class="skill-image"> </li>
+          <li><img src="/static/Reduxonly.png" alt="React-Redux" class="skill-image" > </li>
+          <li><img src="/static/Expressjs.png" alt="Express" class="skill-image"> </li>
+          <li><img src="/static/nodejs.png" alt="Node.js" class="skill-image"> </li>
+          <li><img src="/static/MongoDB_Logo.svg.png" alt="MongoDB" class="skill-image"> </li>
+          <li><img src="/static/AWS.png" alt="AWS" class="skill-image"> </li>
+          <li><img src="/static/Anaconda_Logo.png" alt="Anaconda" class="skill-image"></li>
+          <li><img src="/static/python.png" alt="Python" class="skill-image"></li>
+          <li><img src="/static/IBM_Watson_Logo_2017.png" alt="IBM Watson" class="skill-image"> </li>
+          <li><img src="/static/IBM_logo.svg.png" alt="IBM Watson" class="skill-image"> </li>
+          <li><img src="/static/Sql_data_base_with_logo.png" alt="SQL" class="skill-image"></li>
+          <li><img src="/static/IntelliJ_IDEA_Icon.svg.png" alt="IntelliJ" class="skill-image"> </li>
+          <li><img src="/static/GitHub_logo_2013.svg.png" alt="Git" class="skill-image"> </li>
+          <li><img src="/static/Microsoft-Power-BI-Symbol.png" alt="Power BI" class="skill-image"></li>
+          <li><img src="/static/1280px-Sass_Logo_Color.svg.png" alt="SCSS" class="skill-image"></li>
+          <li><img src="/static/typescript.png" alt="TypeScript" class="skill-image"> </li>
+          <li><img src="/static/JavaScript-logo.png" alt="JavaScript" class="skill-image"> </li>
+          <li><img src="/static/knex-logo.png" alt="knex" class="skill-image"> </li>
+          <li><img src="/static/postgresql.png" alt="PostgreSQL" class="skill-image"> </li>
+          <li><img src="/static/d3.png" alt="D3.js" class="skill-image"></li>
+          <li><img src="/static/pfive.png" alt="P5.js" class="skill-image"> </li>
+          <li><img src="/static/jest.png" alt="Jest" class="skill-image"> </li>
+        </ul>
         
+    </section>
+
+    <section id="portfolio">
       
-      </paragraph>
-    </div>
+      <h2>Portfolio and Projects</h2>
+      <ul>
+        <li><a href="https://audioblog-production.up.railway.app/">Online Radio Station built with React & P5.ts, AWS S3 Buckets and hosted on Railways (in active development)</a></li>
+        <li><a href="https://www.youtube.com/watch?v=T_3vGPS7i5k">Devveron - A text based adventure game and chat room built with React and websockets</a></li>
+        <li><a href="https://github.com/sachabeaumier/newzealandelections23">NZ Electoral Donations 2023 - An API and data visualization project built from webscraping the NZ Electoral Commission website regarding donor contributions to New Zealand political parties</a></li>
+       
+      </ul>
+        <!-- Portfolio showcase section content -->
+        <!-- Insert your HTML code for the portfolio section here -->
+    </section>
 
-  </div>
-
-  <div class="grid-container">
-    <div class="card">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/T_3vGPS7i5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <h3>Devveron 2.0</h3>
-      <a href="/portfolio/devveron.html"><p>text based adventure game/online chatroom made with sockets.io and react</p></a>
-    </div>
-
-    <div class="card">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/s4AmOGunI20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-      <h3>Know Your Assets</h3>
-      <a href="/portfolio/know-your-assets.html"><p>The most conceptually stupid application idea on the market</p></a>
   
-    </div>
-    <div class="card">
-      <img src="/img/moneypolitics.jpeg" alt="Money in Politics image">
-      <h3>Donor tracker API</h3>
-      <a href="/portfolio/newzealandelectoraldonationsopenapi.html"> <p>API to track 
-        donors and donations made to New Zealand political parties</p></a>
-    
-    </div>
-    <div class="card">
-      <img src="/img/space.jpg" alt="Image 3">
-      <h3>NASA Image caller </h3>
-      <a href="/portfolio/nasaimagesapp.html">  <p>A barebones application that externally calls the NASA image of the day API </p></a>
- 
-    </div class="card">
-    <h3>Online Radio Station</h3>
-    <a href="/portfolio/onlineradio.html"><p>An online radio station/music repository </p></a>
 
-    <div>
+    <section id="contact">
+      <h2> Contact and CV</h2> 
 
-    </div>
-    
-  </div>
+      <ul id="footerlist">
+        <li><a href="https://www.linkedin.com/in/sacha-beaumier-625733122/"><img src="/static/800px-LinkedIn_logo_initials.png" alt="linkedin" class="skill-image"></a></li>
+        <li><a href="https://github.com/sachabeaumier"><img src="/static/GitHub-Mark.png" alt="Git" class="skill-image"></a> </li>
+        <li><a href="mailto:sacha.beaumier@gmail.com"><img src="/static/Gmail_icon_(2020).svg.png" alt="email" class="skill-image"></a> </li>
+        <li><a href="https://drive.google.com/file/d/10eYDpm5iMOUXxR9O9n-Xv7hM62ENQrxT/view"   ><img src="/static/CV.png" alt="email" class="skill-image"></a></li>
+
+        
+      </ul>
+   
+    </section> 
+
+    <footer>
+      
+        <!-- Footer section content -->
+        <!-- Insert your HTML code for the footer section here -->
+    </footer>
+
+    <script src="nav.js"></script>
+   
   
- 
-  <footer>
-  <div class="container">
- <div class="the-boxy1">
-  <h2 class="contact">Contact and writings</h2>
-       <a href="https://github.com/sachabeaumier"><button class="button-74">Github</button></a>
-      <a href="https://www.linkedin.com/in/sacha-beaumier-625733122"><button class="button-74">Linkedin</button></a>
-      <button class="button-74">Email: sacha.beaumier@gmail.com</button>
-      <a href="https://drive.google.com/file/d/10eYDpm5iMOUXxR9O9n-Xv7hM62ENQrxT/view?usp=sharing"><button class="button-74">CV</button></a>
-      <a href="/blog/home.html"><button class="button-74">Writing</button></a>
-  </div>
-</div>
-</footer>
 
-
+   
     
-    
-    
-  </div>
-  
-    
-    
-  
-    
-
- 
-  
 </body>
 </html>

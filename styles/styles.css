@@ -1,0 +1,222 @@
+/* styles.css */
+
+/* Basic styling for the header and navigation */
+header {
+  /* Insert your CSS code for the header here */
+  /* background-color: #AA7555; */
+  padding: 10px;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  position:fixed;
+  background-color: #558AAA;
+  color:#8AAA55;
+  font-family: 'Sono', sans-serif;
+
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ccc;
+  
+}
+
+.navbar-locked + * {
+  position: fixed;
+  background-color: #333;
+  
+}
+
+.skill-image {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+/* .animm {
+  back
+} */
+
+
+/* CSS for Typography */
+
+/* Global Styles */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333333;
+  font-family: 'Sono', sans-serif;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  /* font-family: 'Helvetica', sans-serif; */
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 20px;
+  font-family: 'Sono', sans-serif;
+  /* font-weight: 300; */
+ 
+}
+
+/* Body Text */
+p {
+  /* font-family: 'Helvetica', serif; */
+  font-size: 18px;
+  /* font-weight: normal; */
+  color: #555555;
+  margin-bottom: 10px;
+
+  font-family: 'Sono', sans-serif;
+  font-weight: 300;
+  color:#000000
+  
+}
+
+/* Links */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Font styles */
+
+
+
+main {
+  margin: 20px;
+}
+
+/* Styling for the hero section */
+#hero {
+  /* Insert your CSS code for the hero section here */
+  /* background-image: url('https://avatars.githubusercontent.com/u/13222425?v=4'); */
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+#sacha {
+  
+  padding: 50px;
+
+}
+/* Styling for the about section */
+#about {
+  /* Insert your CSS code for the about section here */
+  padding: 50px;
+
+}
+
+/* Styling for the skills section */
+#skills {
+  /* Insert your CSS code for the skills section here */
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+/* Styling for the portfolio section */
+#portfolio {
+  /* Insert your CSS code for the portfolio section here */
+  padding: 50px;
+
+}
+
+/* Styling for the testimonials section */
+#testimonials {
+  /* Insert your CSS code for the testimonials section here */
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+/* Styling for the contact section */
+#contact {
+  /* Insert your CSS code for the contact section here */
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.heroname {
+
+  margin-left: 20px;
+  display:inline-table
+
+}
+
+#skillslist {
+  list-style-type: none;
+  padding: 0;
+}
+
+#skillslist li {
+  display: inline-block; /* Display list items horizontally */
+  margin-right: 10px; /* Add spacing between the list items */
+}
+
+#skillslist li:last-child {
+  margin-right: 0; /* Remove the margin for the last list item */
+}
+
+#portfoliolist {
+  list-style-type: none;
+  padding: 0;
+}
+
+#portfoliolist li {
+  display: inline-block; /* Display list items horizontally */
+  margin-right: 10px; /* Add spacing between the list items */
+}
+
+#portfoliolist li:last-child {
+  margin-right: 0; /* Remove the margin for the last list item */
+}
+
+#footerlist {
+  list-style-type: none;
+  padding: 0;
+}
+
+#footerlist li {
+  display: inline-block; /* Display list items horizontally */
+  margin-right: 10px; /* Add spacing between the list items */
+}
+
+#footerlist li:last-child {
+  margin-right: 0; /* Remove the margin for the last list item */
+}
+
+/* Basic styling for the footer */
+footer {
+  /* Insert your CSS code for the footer here */
+  background-color: #558AAA;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
